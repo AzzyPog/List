@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #00a8e1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    padding: 10px;
+    list-style: none;
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.color {
+    color: #ffffff;
+}
+
+.search {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    border: 0 none;
+    width: 250px;
+}
